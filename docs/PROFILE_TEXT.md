@@ -24,7 +24,7 @@ A home for AI products, experiments, and developer tools.
 
 **AI · Web · Developer experience**
 
-[Website ↗](https://radiant-iraq.com) · [Repository ↗](https://github.com/HelalMajeed/radiant)
+[Website ↗](https://radiant-iraq.com)
 
 </td>
 <td width="50%" valign="top">

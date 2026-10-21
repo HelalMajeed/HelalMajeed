@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
-      <title id="title">Radiant — project</title><desc id="desc">Radiant. AI products, experiments, and developer tools. AI, WEB, DEVELOPER EXPERIENCE. Open the public repository.</desc>
+      <title id="title">Radiant — project</title><desc id="desc">Radiant. AI products, experiments, and developer tools. AI, WEB, DEVELOPER EXPERIENCE. Visit the Radiant website.</desc>
       <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#a5b6c3" opacity=".12"/></pattern>
       <linearGradient id="edge"><stop stop-color="#c6f88b"/><stop offset=".5" stop-color="#71d9c2"/><stop offset="1" stop-color="#273847"/></linearGradient>
       <clipPath id="frame"><rect x="1" y="1" width="998" height="258" rx="20"/></clipPath></defs>

@@ -152,7 +152,7 @@ def flagship(theme):
 
 
 PROJECTS=[
-    ('radiant','01','Radiant','AI products, experiments,','and developer tools.','AI / WEB / DEVELOPER EXPERIENCE','radiant','https://github.com/HelalMajeed/radiant'),
+    ('radiant','01','Radiant','AI products, experiments,','and developer tools.','AI / WEB / DEVELOPER EXPERIENCE','radiant','https://radiant-iraq.com'),
     ('freezone','02','FREEZONE','Storefront, management dashboard,','and a connected commerce API.','TYPESCRIPT / REACT / NODE.JS','commerce','https://github.com/HelalMajeed/freezone-website'),
     ('structures','03','Data structures','C and C++ implementations.','Understanding software from the foundations.','C / C++ / ALGORITHMS','nodes','https://github.com/HelalMajeed/Datastructure_Implementations'),
     ('experiments','04','Projects for fun','Web, desktop, and terminal experiments.','A place to build and learn by doing.','APPLICATIONS / GAMES / EXPERIMENTS','terminal','https://github.com/HelalMajeed/Projects4Fun'),
@@ -171,7 +171,8 @@ def projects(theme):
         compact+=text(223,57,num+' / PROJECT',23,'mono',c['mint'])+text(221,125,title,52,weight=700)
         short={'radiant':'AI products & developer tools.','freezone':'Commerce, connected.','structures':'C · C++ · Algorithms','experiments':'Build. Explore. Learn.'}[slug]
         compact+=text(223,188,short,35,'muted')+arrow(922,76,c['mint'],1.2)
-        panel(slug,theme,260,body,compact,title+' — project',f'{title}. {d1} {d2} {tags.replace(" / ",", ")}. Open the public repository.')
+        destination='Visit the Radiant website.' if slug=='radiant' else 'Open the public repository.'
+        panel(slug,theme,260,body,compact,title+' — project',f'{title}. {d1} {d2} {tags.replace(" / ",", ")}. {destination}')
 
 
 def tech_icon(key,x,y,c):
@@ -243,7 +244,8 @@ def readme():
             picture('oorr','OORR AI — Arabic-first learning for Iraqi students. Textbook retrieval, step-by-step explanations, voice, web and mobile. Explore OORR AI.','https://oorr.ai'),
             picture('work','Selected work: Radiant, FREEZONE, Data structures and Projects for fun.')]
     for slug,num,title,d1,d2,tags,kind,url in PROJECTS:
-        blocks.append(picture(slug,f'{title}. {d1} {d2} Open the public repository.',url))
+        destination='Visit the Radiant website.' if slug=='radiant' else 'Open the public repository.'
+        blocks.append(picture(slug,f'{title}. {d1} {d2} {destination}',url))
     blocks.extend([
         picture('toolkit','Toolkit: TypeScript, JavaScript, React, Next.js, Node.js, Python, PostgreSQL, Docker, Prisma, C, C++, Linux, Git, RAG, LLM integration and conversational interfaces.'),
         picture('exploring','Exploring agentic tutoring, natural voice, and more reliable answers through retrieval and evaluation.'),

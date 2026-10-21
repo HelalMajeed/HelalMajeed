@@ -29,10 +29,10 @@
 </p>
 
 <p>
-<a href="https://github.com/HelalMajeed/radiant">
+<a href="https://radiant-iraq.com">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/radiant-dark.svg">
-  <img src="./assets/sections/radiant-light.svg" width="100%" alt="Radiant. AI products, experiments, and developer tools. Open the public repository.">
+  <img src="./assets/sections/radiant-light.svg" width="100%" alt="Radiant. AI products, experiments, and developer tools. Visit the Radiant website.">
 </picture>
 </a>
 </p>
@@ -116,7 +116,7 @@ A home for AI products, experiments, and developer tools.
 
 **AI · Web · Developer experience**
 
-[Website ↗](https://radiant-iraq.com) · [Repository ↗](https://github.com/HelalMajeed/radiant)
+[Website ↗](https://radiant-iraq.com)
 
 </td>
 <td width="50%" valign="top">

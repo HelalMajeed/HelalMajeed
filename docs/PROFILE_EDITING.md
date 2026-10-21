@@ -25,4 +25,6 @@ Prepared on 2026-10-21 from the connected account identity and the public Radian
 
 Reference: https://github.com/MAZHARMIK was reviewed for structure. All profile wording and artwork here are original.
 
-Suggested pins, if desired: `radiant`, `freezone-website`, `Datastructure_Implementations`, and `Projects4Fun`.
+Radiant's source repository is now private. Its profile card and text links point to `https://radiant-iraq.com`. Keep that destination when regenerating the README.
+
+Suggested public pins, if desired: `freezone-website`, `Datastructure_Implementations`, and `Projects4Fun`.
