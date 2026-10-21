@@ -10,9 +10,9 @@ The public `HelalMajeed/HelalMajeed` repository supplies the README displayed on
 
 ## Design
 
-The visual identity uses Crescent's name as an orbital motif: a custom crescent, fine orbital paths, quiet mint/lime accents, and editorial typography. Desktop and mobile compositions are separate so mobile text remains legible. The README uses GitHub's native text, links, headings, and tables below the banner.
+The visual identity uses Crescent's name as an orbital motif: a custom crescent, fine orbital paths, quiet mint/lime accents, and editorial typography. The main SVGs contain a larger-type compact composition selected by an internal width media query. The standalone tall mobile SVGs are optional alternate artwork. The README uses GitHub's native text, links, headings, and tables below the banner.
 
-Light and dark themes use native HTML `picture` sources. Motion is CSS-only inside the SVG and respects `prefers-reduced-motion`. The resting frame is complete if animation is unavailable. Images include text alternatives. There is no JavaScript, remote font, profile tracking pixel, external badge service, or GitHub Actions dependency.
+Light and dark themes use native HTML `picture` sources. GitHub rewrites picture media attributes to match the selected GitHub theme, so width breakpoints must remain inside the SVG rather than on picture sources. Motion is CSS-only inside the SVG and respects `prefers-reduced-motion`. The resting frame is complete if animation is unavailable. Images include text alternatives. There is no JavaScript, remote font, profile tracking pixel, external badge service, or GitHub Actions dependency.
 
 GitHub controls the surrounding profile layout, avatar, bio, pinned repositories, and contribution graph. A README cannot replace those with a custom website layout.
 

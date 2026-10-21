@@ -75,6 +75,15 @@ def hero(theme, mobile=False):
           <text x="70" y="493" class="mono" font-size="14" letter-spacing="1.6">BUILDING FROM IRAQ</text>
           <text x="1152" y="493" text-anchor="end" class="mono" font-size="14" letter-spacing="1">EXPLORE THE WORK BELOW ↙</text>
         '''
+    compact = f'''
+      <text x="48" y="70" class="mono" font-size="30" letter-spacing="2">HELALMAJEED / SOFTWARE &amp; AI</text>
+      <text x="40" y="225" class="title" font-size="145" letter-spacing="-6">Crescent.</text>
+      <text x="48" y="326" class="headline" font-size="66">Turning ideas into</text>
+      <text x="48" y="414" class="headline" font-size="66">intelligent systems.</text>
+      <path d="M48 455H1152" stroke="{c['line']}"/>
+      <text x="48" y="505" class="mono" font-size="28" letter-spacing="2">BUILDING FROM IRAQ</text>
+      <g transform="translate(655 90) scale(.5)">{orbit(cx,cy,r,c)}</g>
+    ''' if not mobile else ''
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc">
       <title id="title">Crescent — turning ideas into intelligent systems</title>
       <desc id="desc">HelalMajeed. AI products, useful software and thoughtful design. Building from Iraq. A custom crescent with slowly orbiting points.</desc>
@@ -93,13 +102,15 @@ def hero(theme, mobile=False):
         @keyframes orbit{{to{{transform:rotate(360deg)}}}}
         .orbit{{animation:orbit 45s linear infinite}}
         .orbit-slow{{animation:orbit 80s linear infinite reverse}}
+        .compact{{display:none}}
+        @media(max-width:600px){{.wide{{display:none}}.compact{{display:inline}}}}
         @media(prefers-reduced-motion:reduce){{.orbit,.orbit-slow{{animation:none}}}}
       </style>
       <g clip-path="url(#frame)">
         <rect width="{w}" height="{h}" fill="{c['bg']}"/>
         <rect width="{w}" height="{h}" fill="url(#dots)"/>
-        {orbit(cx,cy,r,c)}
-        {words}
+        <g class="{'standalone' if mobile else 'wide'}">{orbit(cx,cy,r,c)}{words}</g>
+        <g class="compact">{compact}</g>
       </g>
       <rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="19.5" fill="none" stroke="{c['line']}"/>
     </svg>'''

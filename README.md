@@ -1,6 +1,4 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/crescent-dark-mobile.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/crescent-light-mobile.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/crescent-dark.svg">
   <img src="./assets/crescent-light.svg" width="100%" alt="Crescent / HelalMajeed — Turning ideas into intelligent systems. AI products, useful software and thoughtful design. Building from Iraq.">
 </picture>
