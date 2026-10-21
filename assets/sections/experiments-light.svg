@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+      <title id="title">Projects for fun — project</title><desc id="desc">Projects for fun. Web, desktop, and terminal experiments. A place to build and learn by doing. APPLICATIONS, GAMES, EXPERIMENTS. Open the public repository.</desc>
+      <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#51685c" opacity=".12"/></pattern>
+      <linearGradient id="edge"><stop stop-color="#426b20"/><stop offset=".5" stop-color="#237d68"/><stop offset="1" stop-color="#c8d8ca"/></linearGradient>
+      <clipPath id="frame"><rect x="1" y="1" width="998" height="258" rx="20"/></clipPath></defs>
+      <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#192c25}
+      .muted{fill:#51685c}.mono{font-family:'Courier New',monospace;letter-spacing:1.3px}
+      .compact{display:none}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes eyes{0%,42%,47%,100%{transform:scaleY(1)}44%,45%{transform:scaleY(.18)}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes trace{to{stroke-dashoffset:-180}}
+      @keyframes wave{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}
+      .float{animation:float 5s ease-in-out infinite}
+      .pulse{animation:pulse 4s ease-in-out infinite}
+      .eyes{transform-origin:90px 88px;animation:eyes 8s ease-in-out infinite}
+      .spin{animation:spin 35s linear infinite}
+      .trace{animation:trace 10s linear infinite}
+      .wave{animation:wave 1.8s ease-in-out infinite}
+      @media(max-width:600px){.wide{display:none}.compact{display:inline}}
+      @media(prefers-reduced-motion:reduce){.float,.pulse,.eyes,.spin,.trace,.wave{animation:none!important}}
+    </style><g clip-path="url(#frame)">
+      <rect x="0" y="0" width="1000" height="260" rx="20" fill="#f4f7f1" stroke="none" /><rect width="1000" height="260" fill="url(#dots)"/>
+      <path d="M30 1H970" stroke="url(#edge)" stroke-width="2" opacity=".7"/>
+      <g class="wide"><g transform="translate(30 35)"><g transform="scale(1.011111111111111)"><circle cx="90" cy="90" r="79" fill="#e9f0e5" stroke="#c8d8ca"/><circle cx="90" cy="90" r="88" fill="none" stroke="#c8d8ca" stroke-dasharray="2 9"/><g class="float"><rect x="28" y="42" width="124" height="99" rx="14" fill="#f4f7f1" stroke="#237d68" stroke-width="2.5"/>
+          <path d="M28 65H152" stroke="#c8d8ca"/><g fill="#51685c"><circle cx="42" cy="54" r="3"/><circle cx="53" cy="54" r="3"/><circle cx="64" cy="54" r="3"/></g>
+          <path d="M49 88L62 99L49 110" fill="none" stroke="#426b20" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M78 110H104" class="pulse" stroke="#426b20" stroke-width="4" stroke-linecap="round"/>
+          <path d="M112 26L116 36L126 40L116 44L112 54L108 44L98 40L108 36Z" fill="#326aab"/></g></g></g><text x="248" y="43" font-size="13" class="mono" style="fill:#237d68" >04 / PROJECT</text><text x="247" y="98" font-size="43" class=""  font-weight="700" >Projects for fun</text><g transform="translate(925 62) scale(1.1)" fill="none" stroke="#237d68" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M0 18L18 0M0 0H18V18"/></g><text x="248" y="141" font-size="23" class="muted"  >Web, desktop, and terminal experiments.</text><text x="248" y="173" font-size="23" class="muted"  >A place to build and learn by doing.</text><text x="248" y="221" font-size="13" class="mono" style="fill:#51685c" >APPLICATIONS / GAMES / EXPERIMENTS</text></g><g class="compact"><g transform="translate(34 61)"><g transform="scale(0.8555555555555555)"><circle cx="90" cy="90" r="79" fill="#e9f0e5" stroke="#c8d8ca"/><circle cx="90" cy="90" r="88" fill="none" stroke="#c8d8ca" stroke-dasharray="2 9"/><g class="float"><rect x="28" y="42" width="124" height="99" rx="14" fill="#f4f7f1" stroke="#237d68" stroke-width="2.5"/>
+          <path d="M28 65H152" stroke="#c8d8ca"/><g fill="#51685c"><circle cx="42" cy="54" r="3"/><circle cx="53" cy="54" r="3"/><circle cx="64" cy="54" r="3"/></g>
+          <path d="M49 88L62 99L49 110" fill="none" stroke="#426b20" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M78 110H104" class="pulse" stroke="#426b20" stroke-width="4" stroke-linecap="round"/>
+          <path d="M112 26L116 36L126 40L116 44L112 54L108 44L98 40L108 36Z" fill="#326aab"/></g></g></g><text x="223" y="57" font-size="23" class="mono" style="fill:#237d68" >04 / PROJECT</text><text x="221" y="125" font-size="52" class=""  font-weight="700" >Projects for fun</text><text x="223" y="188" font-size="35" class="muted"  >Build. Explore. Learn.</text><g transform="translate(922 76) scale(1.2)" fill="none" stroke="#237d68" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M0 18L18 0M0 0H18V18"/></g></g></g>
+      <rect x=".5" y=".5" width="999" height="259" rx="19.5" fill="none" stroke="#c8d8ca"/>
+    </svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+      <title id="title">Radiant — project</title><desc id="desc">Radiant. AI products, experiments, and developer tools. AI, WEB, DEVELOPER EXPERIENCE. Open the public repository.</desc>
+      <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#a5b6c3" opacity=".12"/></pattern>
+      <linearGradient id="edge"><stop stop-color="#c6f88b"/><stop offset=".5" stop-color="#71d9c2"/><stop offset="1" stop-color="#273847"/></linearGradient>
+      <clipPath id="frame"><rect x="1" y="1" width="998" height="258" rx="20"/></clipPath></defs>
+      <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#eef4f2}
+      .muted{fill:#a5b6c3}.mono{font-family:'Courier New',monospace;letter-spacing:1.3px}
+      .compact{display:none}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes eyes{0%,42%,47%,100%{transform:scaleY(1)}44%,45%{transform:scaleY(.18)}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes trace{to{stroke-dashoffset:-180}}
+      @keyframes wave{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}
+      .float{animation:float 5s ease-in-out infinite}
+      .pulse{animation:pulse 4s ease-in-out infinite}
+      .eyes{transform-origin:90px 88px;animation:eyes 8s ease-in-out infinite}
+      .spin{animation:spin 35s linear infinite}
+      .trace{animation:trace 10s linear infinite}
+      .wave{animation:wave 1.8s ease-in-out infinite}
+      @media(max-width:600px){.wide{display:none}.compact{display:inline}}
+      @media(prefers-reduced-motion:reduce){.float,.pulse,.eyes,.spin,.trace,.wave{animation:none!important}}
+    </style><g clip-path="url(#frame)">
+      <rect x="0" y="0" width="1000" height="260" rx="20" fill="#090f17" stroke="none" /><rect width="1000" height="260" fill="url(#dots)"/>
+      <path d="M30 1H970" stroke="url(#edge)" stroke-width="2" opacity=".7"/>
+      <g class="wide"><g transform="translate(30 35)"><g transform="scale(1.011111111111111)"><circle cx="90" cy="90" r="79" fill="#101c27" stroke="#273847"/><circle cx="90" cy="90" r="88" fill="none" stroke="#273847" stroke-dasharray="2 9"/><g class="spin" style="transform-origin:90px 90px" stroke="#c6f88b" stroke-width="3" stroke-linecap="round"><path d="M90 22V43" transform="rotate(0 90 90)"/><path d="M90 22V43" transform="rotate(30 90 90)"/><path d="M90 22V43" transform="rotate(60 90 90)"/><path d="M90 22V43" transform="rotate(90 90 90)"/><path d="M90 22V43" transform="rotate(120 90 90)"/><path d="M90 22V43" transform="rotate(150 90 90)"/><path d="M90 22V43" transform="rotate(180 90 90)"/><path d="M90 22V43" transform="rotate(210 90 90)"/><path d="M90 22V43" transform="rotate(240 90 90)"/><path d="M90 22V43" transform="rotate(270 90 90)"/><path d="M90 22V43" transform="rotate(300 90 90)"/><path d="M90 22V43" transform="rotate(330 90 90)"/></g><circle cx="90" cy="90" r="35" fill="none" stroke="#71d9c2" stroke-width="2"/><path d="M90 63L112 90L90 117L68 90Z" fill="#c6f88b"/><circle cx="90" cy="90" r="10" fill="#090f17"/></g></g><text x="248" y="43" font-size="13" class="mono" style="fill:#71d9c2" >01 / PROJECT</text><text x="247" y="98" font-size="43" class=""  font-weight="700" >Radiant</text><g transform="translate(925 62) scale(1.1)" fill="none" stroke="#71d9c2" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M0 18L18 0M0 0H18V18"/></g><text x="248" y="141" font-size="23" class="muted"  >AI products, experiments,</text><text x="248" y="173" font-size="23" class="muted"  >and developer tools.</text><text x="248" y="221" font-size="13" class="mono" style="fill:#a5b6c3" >AI / WEB / DEVELOPER EXPERIENCE</text></g><g class="compact"><g transform="translate(34 61)"><g transform="scale(0.8555555555555555)"><circle cx="90" cy="90" r="79" fill="#101c27" stroke="#273847"/><circle cx="90" cy="90" r="88" fill="none" stroke="#273847" stroke-dasharray="2 9"/><g class="spin" style="transform-origin:90px 90px" stroke="#c6f88b" stroke-width="3" stroke-linecap="round"><path d="M90 22V43" transform="rotate(0 90 90)"/><path d="M90 22V43" transform="rotate(30 90 90)"/><path d="M90 22V43" transform="rotate(60 90 90)"/><path d="M90 22V43" transform="rotate(90 90 90)"/><path d="M90 22V43" transform="rotate(120 90 90)"/><path d="M90 22V43" transform="rotate(150 90 90)"/><path d="M90 22V43" transform="rotate(180 90 90)"/><path d="M90 22V43" transform="rotate(210 90 90)"/><path d="M90 22V43" transform="rotate(240 90 90)"/><path d="M90 22V43" transform="rotate(270 90 90)"/><path d="M90 22V43" transform="rotate(300 90 90)"/><path d="M90 22V43" transform="rotate(330 90 90)"/></g><circle cx="90" cy="90" r="35" fill="none" stroke="#71d9c2" stroke-width="2"/><path d="M90 63L112 90L90 117L68 90Z" fill="#c6f88b"/><circle cx="90" cy="90" r="10" fill="#090f17"/></g></g><text x="223" y="57" font-size="23" class="mono" style="fill:#71d9c2" >01 / PROJECT</text><text x="221" y="125" font-size="52" class=""  font-weight="700" >Radiant</text><text x="223" y="188" font-size="35" class="muted"  >AI products &amp; developer tools.</text><g transform="translate(922 76) scale(1.2)" fill="none" stroke="#71d9c2" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M0 18L18 0M0 0H18V18"/></g></g></g>
+      <rect x=".5" y=".5" width="999" height="259" rx="19.5" fill="none" stroke="#273847"/>
+    </svg>

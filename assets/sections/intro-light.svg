@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+      <title id="title">The builder</title><desc id="desc">I build AI products and the software around them, from interfaces and APIs to the systems that keep them running. Useful intelligence, approachable tools, and working products.</desc>
+      <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#51685c" opacity=".12"/></pattern>
+      <linearGradient id="edge"><stop stop-color="#426b20"/><stop offset=".5" stop-color="#237d68"/><stop offset="1" stop-color="#c8d8ca"/></linearGradient>
+      <clipPath id="frame"><rect x="1" y="1" width="998" height="298" rx="20"/></clipPath></defs>
+      <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#192c25}
+      .muted{fill:#51685c}.mono{font-family:'Courier New',monospace;letter-spacing:1.3px}
+      .compact{display:none}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes eyes{0%,42%,47%,100%{transform:scaleY(1)}44%,45%{transform:scaleY(.18)}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes trace{to{stroke-dashoffset:-180}}
+      @keyframes wave{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}
+      .float{animation:float 5s ease-in-out infinite}
+      .pulse{animation:pulse 4s ease-in-out infinite}
+      .eyes{transform-origin:90px 88px;animation:eyes 8s ease-in-out infinite}
+      .spin{animation:spin 35s linear infinite}
+      .trace{animation:trace 10s linear infinite}
+      .wave{animation:wave 1.8s ease-in-out infinite}
+      @media(max-width:600px){.wide{display:none}.compact{display:inline}}
+      @media(prefers-reduced-motion:reduce){.float,.pulse,.eyes,.spin,.trace,.wave{animation:none!important}}
+    </style><g clip-path="url(#frame)">
+      <rect x="0" y="0" width="1000" height="300" rx="20" fill="#f4f7f1" stroke="none" /><rect width="1000" height="300" fill="url(#dots)"/>
+      <path d="M30 1H970" stroke="url(#edge)" stroke-width="2" opacity=".7"/>
+      <g class="wide"><text x="38" y="43" font-size="16" class="mono" style="fill:#237d68" >01 / THE BUILDER</text><text x="38" y="111" font-size="46" class=""  font-weight="700" >Intelligence, made useful.</text><text x="38" y="157" font-size="23" class="muted"  >I build AI products and the software around them.</text><text x="38" y="191" font-size="23" class="muted"  >From the first interface to the systems behind it.</text><rect x="38" y="230" width="180" height="36" rx="18" fill="#e9f0e5" stroke="#c8d8ca" /><text x="128.0" y="254" font-size="15" class="mono" style="fill:#51685c" text-anchor="middle">AI SYSTEMS</text><rect x="231" y="230" width="205" height="36" rx="18" fill="#e9f0e5" stroke="#c8d8ca" /><text x="333.5" y="254" font-size="15" class="mono" style="fill:#51685c" text-anchor="middle">PRODUCT DESIGN</text><rect x="449" y="230" width="183" height="36" rx="18" fill="#e9f0e5" stroke="#c8d8ca" /><text x="540.5" y="254" font-size="15" class="mono" style="fill:#51685c" text-anchor="middle">ENGINEERING</text><g transform="translate(772 60)"><g transform="scale(1.0)"><circle cx="90" cy="90" r="79" fill="#e9f0e5" stroke="#c8d8ca"/><circle cx="90" cy="90" r="88" fill="none" stroke="#c8d8ca" stroke-dasharray="2 9"/><g class="float"><path d="M90 50V36" stroke="#237d68" stroke-width="3"/><circle cx="90" cy="29" r="7" fill="#426b20" class="pulse"/>
+          <rect x="38" y="53" width="104" height="82" rx="27" fill="#f4f7f1" stroke="#237d68" stroke-width="3"/>
+          <rect x="49" y="66" width="82" height="43" rx="16" fill="#e9f0e5"/>
+          <g class="eyes" fill="#426b20"><rect x="64" y="80" width="10" height="16" rx="5"/><rect x="106" y="80" width="10" height="16" rx="5"/></g>
+          <path d="M76 118Q90 128 104 118" fill="none" stroke="#237d68" stroke-width="3" stroke-linecap="round"/>
+          <path d="M28 80V106M152 80V106" stroke="#237d68" stroke-width="7" stroke-linecap="round"/></g></g></g></g><g class="compact"><text x="38" y="51" font-size="26" class="mono" style="fill:#237d68" >01 / THE BUILDER</text><text x="38" y="120" font-size="49" class=""  font-weight="700" >Intelligence, made useful.</text><text x="38" y="181" font-size="35" class="muted"  >AI products. Interfaces. APIs.</text><text x="38" y="229" font-size="35" class="muted"  >Built to help people do more.</text><g transform="translate(800 128)"><g transform="scale(0.8333333333333334)"><circle cx="90" cy="90" r="79" fill="#e9f0e5" stroke="#c8d8ca"/><circle cx="90" cy="90" r="88" fill="none" stroke="#c8d8ca" stroke-dasharray="2 9"/><g class="float"><path d="M90 50V36" stroke="#237d68" stroke-width="3"/><circle cx="90" cy="29" r="7" fill="#426b20" class="pulse"/>
+          <rect x="38" y="53" width="104" height="82" rx="27" fill="#f4f7f1" stroke="#237d68" stroke-width="3"/>
+          <rect x="49" y="66" width="82" height="43" rx="16" fill="#e9f0e5"/>
+          <g class="eyes" fill="#426b20"><rect x="64" y="80" width="10" height="16" rx="5"/><rect x="106" y="80" width="10" height="16" rx="5"/></g>
+          <path d="M76 118Q90 128 104 118" fill="none" stroke="#237d68" stroke-width="3" stroke-linecap="round"/>
+          <path d="M28 80V106M152 80V106" stroke="#237d68" stroke-width="7" stroke-linecap="round"/></g></g></g></g></g>
+      <rect x=".5" y=".5" width="999" height="299" rx="19.5" fill="none" stroke="#c8d8ca"/>
+    </svg>
