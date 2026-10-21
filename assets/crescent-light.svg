@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="530" viewBox="0 0 1200 530" role="img" aria-labelledby="title desc">
+      <title id="title">Crescent — turning ideas into intelligent systems</title>
+      <desc id="desc">HelalMajeed. AI products, useful software and thoughtful design. Building from Iraq. A custom crescent with slowly orbiting points.</desc>
+      <defs>
+        <radialGradient id="halo"><stop stop-color="#287c68" stop-opacity=".12"/><stop offset="1" stop-color="#f3f6ef" stop-opacity="0"/></radialGradient>
+        <radialGradient id="planet" cx="23%" cy="22%" r="85%"><stop stop-color="#e6eee1"/><stop offset="1" stop-color="#f3f6ef"/></radialGradient>
+        <linearGradient id="crescent" x1=".05" y1=".1" x2=".9" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#396819"/><stop offset=".65" stop-color="#287c68"/><stop offset="1" stop-color="#287c68" stop-opacity=".15"/></linearGradient>
+        <mask id="cut"><rect width="1200" height="530" fill="white"/><circle cx="990.5" cy="233.75" r="120.0" fill="black"/></mask>
+        <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#536659" opacity=".1"/></pattern>
+        <clipPath id="frame"><rect width="1200" height="530" rx="20"/></clipPath>
+      </defs>
+      <style>
+        .title{font-family:Arial,Helvetica,sans-serif;font-weight:700;fill:#17261e}
+        .headline{font-family:Arial,Helvetica,sans-serif;font-weight:400;fill:#17261e}
+        .mono{font-family:'Courier New',monospace;fill:#536659}
+        @keyframes orbit{to{transform:rotate(360deg)}}
+        .orbit{animation:orbit 45s linear infinite}
+        .orbit-slow{animation:orbit 80s linear infinite reverse}
+        @media(prefers-reduced-motion:reduce){.orbit,.orbit-slow{animation:none}}
+      </style>
+      <g clip-path="url(#frame)">
+        <rect width="1200" height="530" fill="#f3f6ef"/>
+        <rect width="1200" height="530" fill="url(#dots)"/>
+        
+      <circle cx="943" cy="265" r="192.5" fill="url(#halo)"/>
+      <circle cx="943" cy="265" r="171.25" fill="none" stroke="#ccd8cb" stroke-opacity="0.42"/><circle cx="943" cy="265" r="148.75" fill="none" stroke="#ccd8cb" stroke-opacity="0.65"/><circle cx="943" cy="265" r="125.00" fill="none" stroke="#ccd8cb" stroke-opacity="0.9"/><path d="M1114.25 265.00L1122.25 265.00" stroke="#536659" opacity=".35"/><path d="M1113.60 279.93L1116.59 280.19" stroke="#536659" opacity=".35"/><path d="M1111.65 294.74L1114.60 295.26" stroke="#536659" opacity=".35"/><path d="M1108.41 309.32L1111.31 310.10" stroke="#536659" opacity=".35"/><path d="M1103.92 323.57L1106.74 324.60" stroke="#536659" opacity=".35"/><path d="M1098.21 337.37L1100.92 338.64" stroke="#536659" opacity=".35"/><path d="M1091.31 350.62L1098.24 354.62" stroke="#536659" opacity=".35"/><path d="M1083.28 363.22L1085.74 364.95" stroke="#536659" opacity=".35"/><path d="M1074.19 375.08L1076.48 377.01" stroke="#536659" opacity=".35"/><path d="M1064.09 386.09L1066.21 388.21" stroke="#536659" opacity=".35"/><path d="M1053.08 396.19L1055.01 398.48" stroke="#536659" opacity=".35"/><path d="M1041.22 405.28L1042.95 407.74" stroke="#536659" opacity=".35"/><path d="M1028.62 413.31L1032.62 420.24" stroke="#536659" opacity=".35"/><path d="M1015.37 420.21L1016.64 422.92" stroke="#536659" opacity=".35"/><path d="M1001.57 425.92L1002.60 428.74" stroke="#536659" opacity=".35"/><path d="M987.32 430.41L988.10 433.31" stroke="#536659" opacity=".35"/><path d="M972.74 433.65L973.26 436.60" stroke="#536659" opacity=".35"/><path d="M957.93 435.60L958.19 438.59" stroke="#536659" opacity=".35"/><path d="M943.00 436.25L943.00 444.25" stroke="#536659" opacity=".35"/><path d="M928.07 435.60L927.81 438.59" stroke="#536659" opacity=".35"/><path d="M913.26 433.65L912.74 436.60" stroke="#536659" opacity=".35"/><path d="M898.68 430.41L897.90 433.31" stroke="#536659" opacity=".35"/><path d="M884.43 425.92L883.40 428.74" stroke="#536659" opacity=".35"/><path d="M870.63 420.21L869.36 422.92" stroke="#536659" opacity=".35"/><path d="M857.38 413.31L853.38 420.24" stroke="#536659" opacity=".35"/><path d="M844.78 405.28L843.05 407.74" stroke="#536659" opacity=".35"/><path d="M832.92 396.19L830.99 398.48" stroke="#536659" opacity=".35"/><path d="M821.91 386.09L819.79 388.21" stroke="#536659" opacity=".35"/><path d="M811.81 375.08L809.52 377.01" stroke="#536659" opacity=".35"/><path d="M802.72 363.22L800.26 364.95" stroke="#536659" opacity=".35"/><path d="M794.69 350.63L787.76 354.63" stroke="#536659" opacity=".35"/><path d="M787.79 337.37L785.08 338.64" stroke="#536659" opacity=".35"/><path d="M782.08 323.57L779.26 324.60" stroke="#536659" opacity=".35"/><path d="M777.59 309.32L774.69 310.10" stroke="#536659" opacity=".35"/><path d="M774.35 294.74L771.40 295.26" stroke="#536659" opacity=".35"/><path d="M772.40 279.93L769.41 280.19" stroke="#536659" opacity=".35"/><path d="M771.75 265.00L763.75 265.00" stroke="#536659" opacity=".35"/><path d="M772.40 250.07L769.41 249.81" stroke="#536659" opacity=".35"/><path d="M774.35 235.26L771.40 234.74" stroke="#536659" opacity=".35"/><path d="M777.59 220.68L774.69 219.90" stroke="#536659" opacity=".35"/><path d="M782.08 206.43L779.26 205.40" stroke="#536659" opacity=".35"/><path d="M787.79 192.63L785.08 191.36" stroke="#536659" opacity=".35"/><path d="M794.69 179.38L787.76 175.38" stroke="#536659" opacity=".35"/><path d="M802.72 166.78L800.26 165.05" stroke="#536659" opacity=".35"/><path d="M811.81 154.92L809.52 152.99" stroke="#536659" opacity=".35"/><path d="M821.91 143.91L819.79 141.79" stroke="#536659" opacity=".35"/><path d="M832.92 133.81L830.99 131.52" stroke="#536659" opacity=".35"/><path d="M844.78 124.72L843.05 122.26" stroke="#536659" opacity=".35"/><path d="M857.37 116.69L853.37 109.76" stroke="#536659" opacity=".35"/><path d="M870.63 109.79L869.36 107.08" stroke="#536659" opacity=".35"/><path d="M884.43 104.08L883.40 101.26" stroke="#536659" opacity=".35"/><path d="M898.68 99.59L897.90 96.69" stroke="#536659" opacity=".35"/><path d="M913.26 96.35L912.74 93.40" stroke="#536659" opacity=".35"/><path d="M928.07 94.40L927.81 91.41" stroke="#536659" opacity=".35"/><path d="M943.00 93.75L943.00 85.75" stroke="#536659" opacity=".35"/><path d="M957.93 94.40L958.19 91.41" stroke="#536659" opacity=".35"/><path d="M972.74 96.35L973.26 93.40" stroke="#536659" opacity=".35"/><path d="M987.32 99.59L988.10 96.69" stroke="#536659" opacity=".35"/><path d="M1001.57 104.08L1002.60 101.26" stroke="#536659" opacity=".35"/><path d="M1015.37 109.79L1016.64 107.08" stroke="#536659" opacity=".35"/><path d="M1028.62 116.69L1032.62 109.76" stroke="#536659" opacity=".35"/><path d="M1041.22 124.72L1042.95 122.26" stroke="#536659" opacity=".35"/><path d="M1053.08 133.81L1055.01 131.52" stroke="#536659" opacity=".35"/><path d="M1064.09 143.91L1066.21 141.79" stroke="#536659" opacity=".35"/><path d="M1074.19 154.92L1076.48 152.99" stroke="#536659" opacity=".35"/><path d="M1083.28 166.78L1085.74 165.05" stroke="#536659" opacity=".35"/><path d="M1091.31 179.38L1098.24 175.38" stroke="#536659" opacity=".35"/><path d="M1098.21 192.63L1100.92 191.36" stroke="#536659" opacity=".35"/><path d="M1103.92 206.43L1106.74 205.40" stroke="#536659" opacity=".35"/><path d="M1108.41 220.68L1111.31 219.90" stroke="#536659" opacity=".35"/><path d="M1111.65 235.26L1114.60 234.74" stroke="#536659" opacity=".35"/><path d="M1113.60 250.07L1116.59 249.81" stroke="#536659" opacity=".35"/>
+      <ellipse cx="943" cy="265" rx="202.5" ry="66.25" transform="rotate(-30 943 265)" fill="none" stroke="#287c68" opacity=".42"/>
+      <circle cx="943" cy="265" r="125" fill="url(#planet)"/>
+      <circle cx="943" cy="265" r="125" fill="url(#crescent)" mask="url(#cut)"/>
+      <circle cx="943" cy="265" r="125" fill="none" stroke="#396819" stroke-opacity=".36"/>
+      <path d="M858.0 355.0Q958.0 381.25 1045.5 210.0" fill="none" stroke="#287c68" opacity=".16"/>
+      <g class="orbit" style="transform-origin:943px 265px">
+        <circle cx="943" cy="116.25" r="5" fill="#396819"/>
+        <circle cx="943" cy="116.25" r="12" fill="#396819" opacity=".1"/>
+      </g>
+      <g class="orbit-slow" style="transform-origin:943px 265px">
+        <circle cx="771.75" cy="265" r="3" fill="#287c68"/>
+      </g>
+    
+        
+          <text x="48" y="59" class="mono" font-size="15" letter-spacing="2.2">HELALMAJEED / SOFTWARE &amp; AI</text>
+          <circle cx="1107" cy="53" r="4" fill="#396819"/>
+          <text x="1122" y="59" class="mono" font-size="15">IQ</text>
+          <path d="M48 84H1152" stroke="#ccd8cb"/>
+          <text x="43" y="213" class="title" font-size="108" letter-spacing="-5">Crescent.</text>
+          <text x="48" y="283" class="headline" font-size="43" letter-spacing="-.8">Turning ideas into</text>
+          <text x="48" y="339" class="headline" font-size="43" letter-spacing="-.8">intelligent systems.</text>
+          <text x="50" y="391" class="mono" font-size="15" letter-spacing="1">AI PRODUCTS · USEFUL SOFTWARE · THOUGHTFUL DESIGN</text>
+          <path d="M48 451H1152" stroke="#ccd8cb"/>
+          <circle cx="54" cy="487" r="4" fill="#396819"/>
+          <text x="70" y="493" class="mono" font-size="14" letter-spacing="1.6">BUILDING FROM IRAQ</text>
+          <text x="1152" y="493" text-anchor="end" class="mono" font-size="14" letter-spacing="1">EXPLORE THE WORK BELOW ↙</text>
+        
+      </g>
+      <rect x=".5" y=".5" width="1199" height="529" rx="19.5" fill="none" stroke="#ccd8cb"/>
+    </svg>
